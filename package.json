@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Sinetheta/shouldi/issues"
   },
-  "homepage": "https://github.com/Sinetheta/shouldi"
+  "homepage": "https://github.com/Sinetheta/shouldi",
+  "dependencies": {
+    "express": "^4.10.2"
+  }
 }
