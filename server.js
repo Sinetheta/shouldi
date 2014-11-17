@@ -9,6 +9,10 @@ router.get('/shouldi', function(req, res) {
 
 app.use(router)
 
+app.use(function(req, res){
+  res.status(404).json({ message: 'Stai cercando qualcuno? ' });
+});
+
 var port = process.env.PORT || 8080;
 app.listen(port);
 console.log('Magic happens on port ' + port);
