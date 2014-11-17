@@ -1,0 +1,19 @@
+{
+  "name": "shouldi",
+  "version": "1.0.0",
+  "description": "API for shouldiorderapizza.com",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sinetheta/shouldi.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sinetheta/shouldi/issues"
+  },
+  "homepage": "https://github.com/Sinetheta/shouldi"
+}
