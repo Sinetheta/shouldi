@@ -1,10 +1,15 @@
 var express = require('express');
 var app = express();
+var chooseRandom = function(array) {
+  return array[Math.floor(Math.random() * array.length)];
+};
 
 var router = express.Router();
 
+var answers = require('./answers.json');
 router.get('/shouldi', function(req, res) {
-  res.json({ message: 'hooray! welcome to our api!' });
+  var answer = chooseRandom(answers);
+  res.json(answer);
 });
 
 app.use(router)
